@@ -1,0 +1,58 @@
+{
+  "name": "free-t",
+  "version": "1.0.0",
+  "description": "旅游电商项目",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config/webpack.common.js --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config/webpack.common.js --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BokFang/freeT.git"
+  },
+  "keywords": [
+    "freeT"
+  ],
+  "author": "BokFang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BokFang/freeT/issues"
+  },
+  "homepage": "https://github.com/BokFang/freeT#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "html-webpack-plugin": "^4.5.1",
+    "less": "^3.12.2",
+    "less-loader": "^4.1.0",
+    "postcss-less": "^2.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "typescript": "^4.1.3",
+    "webpack": "^4.4.0",
+    "webpack-cli": "2.1.5",
+    "webpack-dev-server": "3.1.14"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
