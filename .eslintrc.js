@@ -42,5 +42,6 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'react/no-unsafe': 'off',
     '@typescript-eslint/no-invalid-this': 'off',
+    'semi': ["error", "always"]
   },
 };
